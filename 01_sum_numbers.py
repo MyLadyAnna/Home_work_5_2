@@ -7,7 +7,7 @@ sum = 0
 if number < 0:       # если число отрицательное, то *(-1), иначе программа ломается, если вводить отрицательные числа
     number = number * -1
 
-for i in str(number):
-    if i != '.':
-        sum += int(i)
+for item in str(number):
+    if item != '.':
+        sum += int(item)
 print(sum)
