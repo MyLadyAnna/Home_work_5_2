@@ -10,4 +10,4 @@ for i in range(1,number+1):
     my_list.append(num)
     sum += num
 print(my_list)
-print(f'Сумма чисел в последовательности равна: {sum}')
+print(f'Сумма чисел в последовательности: {sum}')
