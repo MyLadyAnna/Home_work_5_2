@@ -12,6 +12,6 @@ for i in range(10):
     temp = my_list[i]
     my_list[i] = my_list[rand_index]
     my_list[rand_index] = temp
-print('Перемешанная последовательность:')
+print('Перемешанный список:')
 print(my_list)
 
